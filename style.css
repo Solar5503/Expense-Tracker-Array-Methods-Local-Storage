@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 :root {
   --box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  --error-color: #e74c3c;
 }
 
 * {
@@ -129,4 +130,11 @@ input {
 }
 .list li:hover .delete-btn {
   opacity: 1;
+}
+small {
+  visibility: hidden;
+}
+.error {
+  visibility: visible;
+  color: var(--error-color);
 }
